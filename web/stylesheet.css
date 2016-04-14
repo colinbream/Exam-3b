@@ -5,8 +5,8 @@
 .headerText{float: left; height: 105px; padding-top: 50px; padding-left: 25px;}
 body
 {
-    background-color: #D2B48C;
-    color: #696969;
+    background-color: lightblue;
+    color: black;
 }
 
 table
@@ -30,15 +30,15 @@ table{
 th
 {
     text-align: center;
-    background-color: #FFFF99;
-    color: #696969;
+    background-color: lightslategray;
+    color: black;
 }
 
 td
 {
     height: 10px;
-    background-color: #F08080;
-    color: #FFFFFF;
+    background-color: lightgray;
+    color: black;
 }
 
 th, td

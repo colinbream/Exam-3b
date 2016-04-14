@@ -15,6 +15,8 @@
             <%@ include file="includes/header.jsp" %>
 
             <%@ include file="includes/menu.jsp" %>
+            
+            <%@ include file="includes/searchbar.jsp" %>
 
             <div class="main">
                 <h1>Update A Customer Record</h1>

@@ -16,6 +16,8 @@
             <%@ include file="includes/header.jsp" %>
 
             <%@ include file="includes/menu.jsp" %>
+            
+            <%@ include file="includes/searchbar.jsp" %>
 
             <div class="main">
                 <h1>My Customers</h1>

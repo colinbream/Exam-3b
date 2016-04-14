@@ -13,6 +13,8 @@
             <%@ include file="includes/header.jsp" %>
 
             <%@ include file="includes/menu.jsp" %>
+            
+            <%@ include file="includes/searchbar.jsp" %>
 
             <div class="main">
                 <h1>Add A New Customer</h1>
@@ -20,29 +22,29 @@
                 <div class="add">
                     <form name="addForm" action="addCustomer" method="get">
 
-                        <label>First Name:</label>
-                        <input type="text" name="firstName" value=""/>
+                        <label>*First Name:</label>
+                        <input type="text" name="firstName" required value=""/>
                         <br>
-                        <label>Last Name:</label>
-                        <input type="text" name="lastName" value=""/>
+                        <label>*Last Name:</label>
+                        <input type="text" name="lastName" required value=""/>
                         <br>
-                        <label>Address 1:</label>
-                        <input type="text" name="addr1" value=""/>
+                        <label>*Address 1:</label>
+                        <input type="text" name="addr1" required value=""/>
                         <br>
                         <label>Address 2:</label>
                         <input type="text" name="addr2" value=""/>
                         <br>
-                        <label>City:</label>
-                        <input type="text" name="city" value=""/>
+                        <label>*City:</label>
+                        <input type="text" name="city" required value=""/>
                         <br>
-                        <label>State:</label>
-                        <input type="text" name="state" value=""/>
+                        <label>*State:</label>
+                        <input type="text" name="state" required value=""/>
                         <br>
-                        <label>Zip:</label>
-                        <input type="text" name="zip" value=""/>
+                        <label>*Zip:</label>
+                        <input type="text" name="zip" required value=""/>
                         <br>
-                        <label>Email Address:</label>
-                        <input type="text" name="emailAddr" value=""/>
+                        <label>*Email Address:</label>
+                        <input type="text" name="emailAddr" required value=""/>
                         <br>
                         <br>
                         <input type="submit" name="submit" value="Submit"/>

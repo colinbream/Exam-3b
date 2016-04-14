@@ -79,13 +79,15 @@ public class SearchServlet extends HttpServlet {
         
             //Get the text to search
             String firstName = request.getParameter("searchVal");
-            String lastName = request.getParameter("searchVal");
+            
+            
            
            //Create a SearchQuery helper object
             SearchQuery sq = new SearchQuery();
             
             //Get the HTML table from the SearchQuery object
-            sq.doSearch(firstName, lastName);
+            sq.doSearch(firstName);
+             
             String table = sq.getHTMLtable();
             
             //Pass execution control to read.jsp along with the table
